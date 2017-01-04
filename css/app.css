@@ -1,0 +1,39 @@
+html,body{
+	height: 100%;
+}
+body {
+overflow:hidden;
+background: url("../app-bg.jpg") no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+margin: 0;
+padding: 0;
+}
+.hidden{
+	display: none;
+}
+.nameDiv{
+	height: 20%;
+	width: 20%;
+	padding: 10px;
+	position: absolute;
+	top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+	margin: auto;
+}
+
+.nameDiv input{
+	width: 98%;
+	max-width: 200px;
+}
+.textDiv{
+	position: fixed;
+}
+.imgPath{
+	width: 40%;
+	height: 30%;
+}
